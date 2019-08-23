@@ -3,6 +3,8 @@
 This is a small project to understand the basic of React and how to use React.
 (Udemy: React the Complete Guide incl Hooks, React Router, Redux by Maximilian Schwarzmuller)
 
+First commited on Aug 24, 2019.
+
 ## npm start
 
 Use npm start to run this project on localhost:3000
