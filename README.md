@@ -1,3 +1,20 @@
+## react-complete
+
+This is a small project to understand the basic of React and how to use React.
+(Udemy: React the Complete Guide incl Hooks, React Router, Redux by Maximilian Schwarzmuller)
+
+## npm start
+
+Use npm start to run this project on localhost:3000
+
+## Reference
+
+SyntheticEvent (React) : https://reactjs.org/docs/events.html#supported-events
+
+
+
+********************************************************************************************************
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
