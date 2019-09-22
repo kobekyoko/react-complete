@@ -37,7 +37,11 @@ class App extends Component {
 
   togglePersonHandler = () => {
     const doesShow = this.state.showPersons;
+    //default showPersons false
     this.setState({ showPersons: !doesShow });
+    //if doesShow is true it will set showPersons to false
+    //if doesShow is false it will set showPersons to true
+    //this gets merged with otherState
   };
 
   render() {
