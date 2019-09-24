@@ -13,14 +13,27 @@ class App extends Component {
     showPersons: false //if it is false, not show the person
   };
 
-  nameChangedHandler = event => {
-    this.setState({
-      persons: [
-        { name: "Max", age: 28 },
-        { name: event.target.value, age: 29 },
-        { name: "Stephanie", age: 27 }
-      ]
+  nameChangedHandler = (event, id) => {
+    const personIndex = this.state.persons.findIndex(p => {
+      return p.id === id;
     });
+
+    const person = {
+      ...this.state.persons[personIndex]
+    };
+
+    //above = creating a new JS object, using spread operator
+
+    // const person = Object.assign({}, tis.state.persons[personIndex])
+    //above = alternative solution without using spread operator
+    //default JS method: Object.assign({}, the object you want to copy) the first object is empty, the second object is the object you want to copy
+
+    person.name = event.target.value;
+
+    const persons = [...this.state.persons];
+    persons[personIndex] = person;
+
+    this.setState({ persons: persons });
   };
 
   deletePersonHandler = personIndex => {
@@ -62,6 +75,7 @@ class App extends Component {
                 name={person.name}
                 age={person.age}
                 key={person.id}
+                changed={event => this.nameChangedHandler(event, person.id)}
               />
             );
           })}
