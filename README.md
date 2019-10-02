@@ -1,10 +1,11 @@
 ## react-complete
 
-(Ongoing project) This is a small project to understand the basic of React and how to use React.
-(Udemy: React the Complete Guide incl Hooks, React Router, Redux by Maximilian Schwarzmuller)
+This is a small React project to understand the basic of React and how to use setState.
 
-Completed Lec 57 on Sep 22, 2019.
-First commited on Aug 24, 2019.
+Udemy: React the Complete Guide incl Hooks, React Router, Redux 
+by Maximilian Schwarzmuller
+
+Section 4: Workiing with Lists and Conditionals
 
 ## npm start
 
