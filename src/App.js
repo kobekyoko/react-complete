@@ -26,6 +26,7 @@ class App extends Component {
 
     // const person = Object.assign({}, tis.state.persons[personIndex])
     //above = alternative solution without using spread operator
+
     //default JS method: Object.assign({}, the object you want to copy) the first object is empty, the second object is the object you want to copy
 
     person.name = event.target.value;
