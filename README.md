@@ -5,7 +5,8 @@ This is a small React project to understand the basic of React and how to use se
 Udemy: React the Complete Guide incl Hooks, React Router, Redux 
 by Maximilian Schwarzmuller
 
-Section 4: Workiing with Lists and Conditionals
+Section 4: Working with Lists and Conditionals
+Section 5: Styling React Components & Elements
 
 ## npm start
 
